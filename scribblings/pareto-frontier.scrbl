@@ -1,5 +1,5 @@
 #lang scribble/manual
-@require[@for-label[pareto
+@require[@for-label[pareto-frontier
                     racket/base]]
 
 @title{pareto}
