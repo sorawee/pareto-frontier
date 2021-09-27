@@ -16,9 +16,9 @@ jobs:
           distribution: full
           variant: ${{ matrix.racket-variant }}
           version: ${{ matrix.racket-version }}
-      - name: Installing pareto and its dependencies
-        run: raco pkg install --no-docs --auto --name pareto
-      - name: Compiling pareto and building its docs
-        run: raco setup --check-pkg-deps --unused-pkg-deps pareto
-      - name: Testing pareto
-        run: raco test -x -p pareto
+      - name: Installing pareto-frontier and its dependencies
+        run: raco pkg install --no-docs --auto --name pareto-frontier
+      - name: Compiling pareto-frontier and building its docs
+        run: raco setup --check-pkg-deps --unused-pkg-deps pareto-frontier
+      - name: Testing pareto-frontier
+        run: raco test -x -p pareto-frontier
