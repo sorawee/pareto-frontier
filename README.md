@@ -1,3 +1,4 @@
-pareto
+pareto-frontier
 ======
-README text here.
+
+View the documentation at https://docs.racket-lang.org/pareto-frontier/
